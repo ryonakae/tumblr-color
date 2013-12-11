@@ -338,8 +338,8 @@ a {
           margin-right: 1.5em;
           
           img {
-            float: none;
-            margin: 0;
+            float: none !important;
+            margin: 0 !important;
           }
         }
         
@@ -350,7 +350,10 @@ a {
             font-size: 120%;
           }
           
-          img {}
+          img {
+            margin: 0;
+            @include border-radius(0);
+          }
           
           span {
             font-size: 100% !important;
