@@ -280,53 +280,58 @@ a {
       
       .amazlet-box {
         margin: 1em 0 0 0;
-        border: 5px solid #fededed;
+        border: 3px solid #F2F2F2;
+        width: 100%;
         @include border-radius($round);
         padding: 1em;
-        display: table;
         
         .amazlet-image,
         .amazlet-info {
-          display: table-cell;
+          @include inline-block;
+          vertical-align: top;
+        }
+        
+        .amazlet-image {
+          img {
+            margin: 0;
+            @include border-radius(0);
+          }
         }
         
         .amazlet-info {
-          margin-left: 1em;
-          margin-top: 5px;
+          margin-left: 1.5em;
           
           .amazlet-name {}
           
           .amazlet-powered-date,
           .amazlet-detail,
           .amazlet-sub-info {
-            color: $color-sub;
             font-size: $fontSize-sub;
           }
           
-          .amazlet-powered-date {
+          .amazlet-powered-date {}
+          
+          .amazlet-detail {
             margin-top: 0.5em;
           }
           
-          .amazlet-detail {
-            margin-top: 1em;
-          }
-          
           .amazlet-sub-info {
-            margin-top: 1em;
+            margin-top: 0.5em;
           }
         }
       }
       
       .sticky-itslink {
         margin: 1em 0 0 0;
-        border: 5px solid #fededed;
+        border: 3px solid #F2F2F2;
+        width: 100%;
         @include border-radius($round);
         padding: 1em;
-        display: table;
         
         & > a,
         .sticky-itslinktext {
-          display: table-cell;
+          @include inline-block;
+          vertical-align: top;
         }
         
         & > a {
@@ -337,20 +342,17 @@ a {
         }
         
         .sticky-itslinktext {
-          margin-left: 1em;
-          margin-top: 5px;
+          margin-left: 1.5em;
           font-size: $fontSize-sub;
           
           & > a {
-            font-size: 100%;
+            font-size: 120%;
           }
           
-          img {
-            margin-top: 1em;
-          }
+          img {}
           
           span {
-            font-size: $fontSize-sub;
+            font-size: 100% !important;
           }
         }
       }
