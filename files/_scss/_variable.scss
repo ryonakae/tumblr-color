@@ -1,0 +1,69 @@
+// Width
+$width-pc: 960px;
+$width-tablet: 768px;
+$width-smartphone: 480px;
+
+
+// Font
+$font: "Open Sans", Helvetica, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+$font-code: 'Source Code Pro', sans-serif;
+
+
+// Icon Font
+@include font-face(
+	'Entypo', 
+	font-files(
+		'http://ryonakae.com/common/time/font/entypo/entypo.woff', woff,
+		'http://ryonakae.com/common/time/font/entypo/entypo.ttf', ttf,
+		'http://ryonakae.com/common/time/font/entypo/entypo.svg', svg
+	),
+	'http://ryonakae.com/common/time/font/entypo/entypo.eot',
+	'normal',
+	'normal'
+);
+@include font-face(
+	'Entypo Social', 
+	font-files(
+		'http://ryonakae.com/common/time/font/entypo/entypo-social.woff', woff,
+		'http://ryonakae.com/common/time/font/entypo/entypo.ttf-social', ttf,
+		'http://ryonakae.com/common/time/font/entypo/entypo.svg-social', svg
+	),
+	'http://ryonakae.com/common/time/font/entypo/entypo.eot',
+	'normal',
+	'normal'
+);
+
+$iconfont: 'Entypo', 'Entypo Social';
+
+
+// Background Color
+$bgColor: #fff;
+
+
+// Color
+$color: #555;
+$color-sub: #999;
+$color-inverse: #fff;
+$color-link: #888;
+$color-flame: #bbb;
+
+
+// Text
+$fontSize: 14px;
+$fontSize-blogTitle: 260%;
+$fontSize-sub: 85%;
+
+$fontSize-h1: 215%;
+$fontSize-h2: 175%;
+$fontSize-h3: 150%;
+$fontSize-h4: 130%;
+$fontSize-h5: 115%;
+$fontSize-h6: 100%;
+
+$lineHeight: 1.9;
+$lineHeight-sitetitle: 1.2;
+$lineHeight-title: 1.5;
+
+
+// Other
+$round: 8px;
