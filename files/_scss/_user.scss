@@ -277,6 +277,75 @@ a {
           padding: 0.5em 1em;
         }
       }
+      
+      .amazlet-box {
+        margin: 1em 0 0 0;
+        border: 5px solid #fededed;
+        padding: 1em;
+        display: table;
+        
+        .amazlet-image,
+        .amazlet-info {
+          display: table-cell;
+        }
+        
+        .amazlet-info {
+          margin-left: 1em;
+          margin-top: 5px;
+          
+          .amazlet-name {}
+          
+          .amazlet-powered-date,
+          .amazlet-detail,
+          .amazlet-sub-info {
+            color: $color-sub;
+            font-size: $fontSize-sub;
+          }
+          
+          .amazlet-powered-date {
+            margin-top: 0.5em;
+          }
+          
+          .amazlet-detail {
+            margin-top: 1em;
+          }
+          
+          .amazlet-sub-info {
+            margin-top: 1em;
+          }
+        }
+      }
+      
+      .sticky-itslink {
+        margin: 1em 0 0 0;
+        border: 5px solid #fededed;
+        padding: 1em;
+        display: table;
+        
+        & > a,
+        .sticky-itslinktext {
+          display: table-cell;
+        }
+        
+        .sticky-itslinktext {
+          margin-left: 1em;
+          margin-top: 5px;
+          font-size: $fontSize-sub;
+          
+          & > a {
+            font-size: 100%;
+          }
+          
+          img {
+            margin-top: 1em;
+          }
+          
+          span {
+            font-size: $fontSize-sub;
+          }
+        }
+      }
+      
     }
     
     footer {
