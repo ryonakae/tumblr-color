@@ -292,6 +292,8 @@ a {
         }
         
         .amazlet-image {
+          margin-right: 1.5em;
+        
           img {
             margin: 0;
             @include border-radius(0);
@@ -299,8 +301,6 @@ a {
         }
         
         .amazlet-info {
-          margin-left: 1.5em;
-          
           .amazlet-name {}
           
           .amazlet-powered-date,
@@ -335,6 +335,8 @@ a {
         }
         
         & > a {
+          margin-right: 1.5em;
+          
           img {
             float: none;
             margin: 0;
@@ -342,7 +344,6 @@ a {
         }
         
         .sticky-itslinktext {
-          margin-left: 1.5em;
           font-size: $fontSize-sub;
           
           & > a {
