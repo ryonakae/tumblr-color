@@ -2936,11 +2936,14 @@ a {
     font-size: 85%;
     cursor: pointer;
   }
+  #header #nav #toggle .text {
+    display: table-cell;
+    vertical-align: middle;
+  }
   #header #nav #toggle .icon {
     display: table-cell;
     font-size: 200%;
     line-height: 0;
-    padding-right: 5px;
   }
   #header #nav #toggle.close .icon-up-open-mini {
     display: none;

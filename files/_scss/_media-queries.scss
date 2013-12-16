@@ -81,11 +81,15 @@
         font-size: $fontSize-sub;
         cursor: pointer;
         
+        .text {
+          display: table-cell;
+          vertical-align: middle;
+        }
+        
         .icon {
           display: table-cell;
           font-size: 200%;
           line-height: 0;
-          padding-right: 5px;
         }
         
         &.close {
