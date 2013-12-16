@@ -8,7 +8,7 @@ javascripts_dir = "files/js"
 
 # Define Output Style
 # Option: expanded(default) / nested / compact / compressed
-output_style = :compressed
+output_style = :expanded
 
 # Define Comment
 line_comments = false
