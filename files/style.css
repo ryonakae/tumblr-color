@@ -2849,12 +2849,12 @@ a {
 #backtop {
   margin-top: 40px;
 }
-#backtop .icon {
-  font-size: 400%;
+#backtop #backtop-arrow {
+  font-size: 200%;
   line-height: 0;
   cursor: pointer;
 }
-#backtop .icon:hover {
+#backtop #backtop-arrow:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
 }
@@ -2864,7 +2864,7 @@ a {
   border-style: solid;
   border-left: none;
   border-right: none;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 15px 0;
   width: 100%;
   display: table;
@@ -2942,10 +2942,10 @@ a {
     line-height: 0;
     padding-right: 5px;
   }
-  #header #nav #toggle.close .icon.arrow-up {
+  #header #nav #toggle.close icon-up-open-mini {
     display: none;
   }
-  #header #nav #toggle.open .icon.arrow-down {
+  #header #nav #toggle.open .icon-down-open-mini {
     display: none;
   }
 

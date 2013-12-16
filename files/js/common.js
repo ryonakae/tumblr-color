@@ -46,7 +46,7 @@ jQuery(function(){
   
 	// Back to Top
 	function backTop() {
-		var _backTop = jQuery("#backtop span");
+		var _backTop = jQuery("#backtop-arrow");
 		var _speed = 1500;
 		var _easing = "easeInOutCubic";
 	

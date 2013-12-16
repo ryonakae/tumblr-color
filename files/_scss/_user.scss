@@ -574,8 +574,8 @@ a {
 #backtop {
   margin-top: 40px;
   
-  .icon {
-    font-size: 400%;
+  #backtop-arrow {
+    font-size: 200%;
     line-height: 0;
     cursor: pointer;
     
@@ -592,7 +592,7 @@ a {
   border-style: solid;
   border-left: none;
   border-right: none;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 15px 0;
   
   width: 100%;

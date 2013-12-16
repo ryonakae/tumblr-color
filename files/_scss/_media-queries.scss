@@ -89,13 +89,13 @@
         }
         
         &.close {
-          .icon.arrow-up {
+          icon-up-open-mini {
             display: none;
           }
         }
         
         &.open {
-          .icon.arrow-down {
+          .icon-down-open-mini {
             display: none;
           }
         }
