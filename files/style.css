@@ -2433,7 +2433,7 @@ a {
   margin-bottom: 0;
 }
 #header .description {
-  font-size: 80%;
+  font-size: 85%;
   font-style: italic;
   margin-top: 10px;
   margin-bottom: 0;
@@ -2456,7 +2456,7 @@ a {
 }
 #header #nav ul li {
   display: table-cell;
-  font-size: 80%;
+  font-size: 85%;
   font-style: italic;
 }
 #header #nav ul li:first-child {
@@ -2478,7 +2478,7 @@ a {
   margin: 0 0 10px 0;
 }
 #main .entry header .date {
-  font-size: 80%;
+  font-size: 85%;
   margin: 0;
 }
 #main .entry .content {
@@ -2657,7 +2657,7 @@ a {
 #main .entry .content .amazlet-box .amazlet-info .amazlet-powered-date,
 #main .entry .content .amazlet-box .amazlet-info .amazlet-detail,
 #main .entry .content .amazlet-box .amazlet-info .amazlet-sub-info {
-  font-size: 80%;
+  font-size: 85%;
 }
 #main .entry .content .amazlet-box .amazlet-info .amazlet-detail {
   margin-top: 0.5em;
@@ -2693,7 +2693,7 @@ a {
   margin: 0 !important;
 }
 #main .entry .content .sticky-itslink .sticky-itslinktext {
-  font-size: 80%;
+  font-size: 85%;
 }
 #main .entry .content .sticky-itslink .sticky-itslinktext > a {
   font-size: 120%;
@@ -2712,7 +2712,7 @@ a {
 #main .entry footer {
   margin-top: 30px;
   color: #999999;
-  font-size: 80%;
+  font-size: 85%;
 }
 #main .entry footer .reblogged_from span:first-child:after {
   content: "/";
@@ -2905,12 +2905,12 @@ a {
 }
 #pagination .link {
   display: table-cell;
-  font-size: 80%;
+  font-size: 85%;
 }
 
 #footer {
   margin: 50px 0;
-  font-size: 80%;
+  font-size: 85%;
   color: #999999;
   text-align: right;
   border-width: 1px;
@@ -2981,7 +2981,8 @@ a {
   #header #nav #toggle {
     display: table;
     width: 100%;
-    font-size: 80%;
+    font-size: 85%;
+    font-style: italic;
     cursor: pointer;
   }
   #header #nav #toggle .text {
