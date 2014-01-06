@@ -38,21 +38,21 @@
 @include mediaquery-smartphone {
   // body
   body {
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
     font-size: 13px;
-    border: none;
   }
   
   // Border
-  #border-bottom {
+  #border-right,
+  #border-bottom,
+  #border-left {
     display: none;
   }
   
   // Wrapper
   #wrapper.container {
+    padding-right: 0;
     padding-bottom: 0;
+    padding-left: 0;
   }
   
   // Header
