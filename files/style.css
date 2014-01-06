@@ -2457,7 +2457,7 @@ a {
   -ms-border-radius: 35px;
   -o-border-radius: 35px;
   border-radius: 35px;
-  margin-top: 40px;
+  margin-top: -0.2em;
   margin-right: 1em;
 }
 #header h1 {
