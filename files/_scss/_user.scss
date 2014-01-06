@@ -84,7 +84,8 @@ a {
 // #wrapper {}
 #wrapper.container {
   @include box-sizing(content-box);
-  padding: 10px; // body border 10px
+  padding-top: 10px; // body border 10px
+  padding-bottom: 10px;
 }
 
 

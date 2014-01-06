@@ -10,8 +10,8 @@
 @include mediaquery-pc {
   // wrapper width
   .container {
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
@@ -20,8 +20,8 @@
 @include mediaquery-tablet {
   // wrapper width
   .container {
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
   
   // footer
@@ -48,11 +48,14 @@
     display: none;
   }
   
+  // wrapper width
+  .container {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
   // Wrapper
   #wrapper.container {
-    padding-right: 0;
     padding-bottom: 0;
-    padding-left: 0;
   }
   
   // Header
