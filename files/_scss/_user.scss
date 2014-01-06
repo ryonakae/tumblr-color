@@ -91,6 +91,18 @@ a {
 
 // Header
 #header {
+  @include clearfix;
+
+  .profileImg {
+    display: block;
+    float: left;
+    width: 70px;
+    height: auto;
+    @include border-radius(35px);
+    margin-top: 40px;
+    margin-right: 1em;
+  }
+  
   h1 {
     font-size: $fontSize-blogTitle;
     font-style: italic;

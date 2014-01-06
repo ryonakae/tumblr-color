@@ -10,6 +10,7 @@
 
   <!-- Tumblr Variables -->
   <meta name="if:Show Description" content="1">
+  <meta name="if:Show Profile Image" content="0">
   <meta name="if:Enable Share Buttons" content="1">
   <meta name="if:Enable Google Analytics" content="0">
 
@@ -116,6 +117,9 @@
     
     <!-- header -->
     <header id="header" role="banner">
+      {block:IfShowProfileImage}
+        <img src="{PortraitURL-128}" class="profileImg">
+      {/block:IfShowProfileImage}
       <h1><a href="/">{Title}</a></h1>
       {block:IfShowDescription}
         <p class="description"><a href="/">{Description}</a></p>
