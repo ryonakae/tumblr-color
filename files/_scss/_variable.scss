@@ -1,5 +1,5 @@
 // Width
-$width-pc: 960px;
+$width-pc: 900px;
 $width-tablet: 768px;
 $width-smartphone: 480px;
 
@@ -14,7 +14,8 @@ $bgColor: #fff;
 
 
 // Color
-$color: #555;
+$color: #666;
+$color-heading: #333;
 $color-sub: #999;
 $color-inverse: #fff;
 $color-link: #888;
@@ -22,18 +23,18 @@ $color-flame: #bbb;
 
 
 // Text
-$fontSize: 14px;
-$fontSize-blogTitle: 260%;
-$fontSize-sub: 85%;
+$fontSize: 15px;
+$fontSize-blogTitle: 240%;
+$fontSize-sub: 80%;
 
-$fontSize-h1: 215%;
-$fontSize-h2: 175%;
-$fontSize-h3: 150%;
-$fontSize-h4: 130%;
+$fontSize-h1: 200%;
+$fontSize-h2: 180%;
+$fontSize-h3: 160%;
+$fontSize-h4: 135%;
 $fontSize-h5: 115%;
 $fontSize-h6: 100%;
 
-$lineHeight: 1.9;
+$lineHeight: 1.8;
 $lineHeight-sitetitle: 1.2;
 $lineHeight-title: 1.5;
 

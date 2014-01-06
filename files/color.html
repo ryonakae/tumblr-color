@@ -106,6 +106,9 @@
 </head>
 <body class="changeColor-border">
   
+  <div id="border-top" class="changeColor-background"></div>
+  <div id="border-bottom" class="changeColor-background"></div>
+  
   <!-- wrapper -->
   <div id="wrapper" class="container">
     
@@ -374,7 +377,7 @@
     {/block:PermalinkPagination}
     
     <!-- footer -->
-    <footer id="footer" role="complementary">
+    <footer id="footer" class="changeColor-border" role="complementary">
       <p>
         <span>© {CopyrightYears} {Title} All rights reserved.</span>
         <span><a href="#" target="_blank">COLOR</a> Theme designed by <a href="http://brdr.jp" target="_blank">RYO NAKAE</a></span>
@@ -396,6 +399,7 @@
         function changeColor() {
           // 色を変える要素を指定
           var changeColor_border = jQuery(".changeColor-border");
+          var changeColor_background = jQuery(".changeColor-background");
           var changeColor_text = jQuery(".changeColor-text, a");
         
           // 時間帯ごとの色を指定
@@ -411,26 +415,31 @@
           // ～6時
           if (now <= 6) {
             changeColor_border.css({"border-color" : color_midnight});
+            changeColor_background.css({"background-color" : color_midnight});
             changeColor_text.css({"color" : color_midnight});
           }
           // 7時～11時
           else if (7 <= now && now <= 11) {
             changeColor_border.css({"border-color" : color_morning});
+            changeColor_background.css({"background-color" : color_morning});
             changeColor_text.css({"color" : color_morning});
           }
           // 12時～15時
           else if (12 <= now && now <= 15) {
             changeColor_border.css({"border-color" : color_noon});
+            changeColor_background.css({"background-color" : color_noon});
             changeColor_text.css({"color" : color_noon});
           }
           // 16時～18時
           else if (16 <= now && now <= 18) {
             changeColor_border.css({"border-color" : color_sunset});
+            changeColor_background.css({"background-color" : color_sunset});
             changeColor_text.css({"color" : color_sunset});
           }
           // 19時～23時
           else if (19 <= now && now <= 23) {
             changeColor_border.css({"border-color" : color_night});
+            changeColor_background.css({"background-color" : color_night});
             changeColor_text.css({"color" : color_night});
           }
         };

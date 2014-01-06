@@ -42,6 +42,17 @@
     border-bottom: none;
     border-left: none;
     font-size: 13px;
+    border: none;
+  }
+  
+  // Border
+  #border-bottom {
+    display: none;
+  }
+  
+  // Wrapper
+  #wrapper.container {
+    padding-bottom: 0;
   }
   
   // Header
@@ -52,7 +63,7 @@
     
     #nav {
       margin-top: 30px;
-      height: 4em;
+      height: 3em;
       overflow: hidden;
       
       ul {
@@ -62,7 +73,7 @@
         // height: 0;
         // overflow: hidden;
         // margin-top: 15px;
-        margin-bottom: 15px;
+        margin-bottom: 0;
         
         li {
           display: block;
@@ -120,6 +131,10 @@
       
       .content {
         margin-top: 25px;
+        
+        blockquote {
+          margin-left: 0;
+        }
       }
       
       footer {
@@ -181,6 +196,7 @@
   
   // footer
   #footer {
+    margin-bottom: 30px;
     text-align: center;
     span {
       display: block;
