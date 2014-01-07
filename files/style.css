@@ -2376,7 +2376,7 @@ h4,
 h5,
 h6 {
   font-weight: normal;
-  color: #333333;
+  color: #444444;
 }
 
 .changeColor-border {
@@ -2584,6 +2584,8 @@ a {
   font-family: "Source Code Pro", sans-serif;
   font-size: 90%;
   line-height: 1.62;
+  white-space: pre;
+  overflow: auto;
 }
 #main .entry .content pre code {
   background: none;
@@ -2995,6 +2997,9 @@ a {
     padding-bottom: 0;
   }
 
+  #header {
+    text-align: center;
+  }
   #header .profileImg {
     float: none;
     width: 60px;
@@ -3021,6 +3026,7 @@ a {
     display: block;
     width: 100%;
     margin-bottom: 15px;
+    text-align: left;
   }
   #header #nav ul li {
     display: block;

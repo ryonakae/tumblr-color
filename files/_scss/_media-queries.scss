@@ -60,6 +60,8 @@
   
   // Header
   #header {
+    text-align: center;
+  
     .profileImg {
       float: none;
       width: 60px;
@@ -87,6 +89,7 @@
         // overflow: hidden;
         // margin-top: 15px;
         margin-bottom: 15px;
+        text-align: left;
         
         li {
           display: block;

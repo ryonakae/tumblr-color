@@ -251,6 +251,8 @@ a {
         font-family: $font-code;
         font-size: 90%;
         line-height: $lineHeight * 0.9;
+        white-space: pre;
+        overflow: auto;
         
         code {
           background: none;
